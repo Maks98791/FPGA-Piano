@@ -6,6 +6,8 @@
 # gitignore template for Xilinx Vivado Design Suite
 # website: https://www.xilinx.com/support/download.html
 
+*.html linguist-detectable=false
+
 # [home]
 *.jou
 *.log
