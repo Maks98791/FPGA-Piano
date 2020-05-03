@@ -1,0 +1,185 @@
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script src="paths.js"></script><script src="eqns.js"></script><script>
+      var design = "convertModule";
+      var device = "XC9572XL";
+      signals = new Array("Frequency0_SPECSIG","Frequency1_SPECSIG","Frequency2_SPECSIG","Frequency3_SPECSIG");
+      sigNegs = new Array("OFF","OFF","OFF","OFF");
+      sigTypes = new Array("D","D","D","D");
+
+      
+        specSig["Code5_SPECSIG"]=new Array("Code<5>");
+      
+        specSig["Code4_SPECSIG"]=new Array("Code<4>");
+      
+        specSig["Code3_SPECSIG"]=new Array("Code<3>");
+      
+        specSig["Code2_SPECSIG"]=new Array("Code<2>");
+      
+        specSig["Code6_SPECSIG"]=new Array("Code<6>");
+      
+        specSig["Code7_SPECSIG"]=new Array("Code<7>");
+      
+        specSig["Code1_SPECSIG"]=new Array("Code<1>");
+      
+        specSig["Code0_SPECSIG"]=new Array("Code<0>");
+      
+        specSig["Frequency3_SPECSIG"]=new Array("Frequency<3>");
+      
+        specSig["Frequency0_SPECSIG"]=new Array("Frequency<0>");
+      
+        specSig["Frequency1_SPECSIG"]=new Array("Frequency<1>");
+      
+        specSig["Frequency2_SPECSIG"]=new Array("Frequency<2>");
+      
+            pterms["FB1_2_1"]=new Array("Code5_SPECSIG","Code4_SPECSIG","/Code3_SPECSIG","Code2_SPECSIG","/Code6_SPECSIG","/IfExtended","/Code7_SPECSIG","/ButtonFree","/Code1_SPECSIG");
+          
+            pterms["FB1_2_2"]=new Array("Code5_SPECSIG","Code4_SPECSIG","Code2_SPECSIG","/Code6_SPECSIG","/IfExtended","/Code7_SPECSIG","/ButtonFree","/Code1_SPECSIG","/Code0_SPECSIG");
+          
+            pterms["FB1_2_3"]=new Array("Code5_SPECSIG","Code4_SPECSIG","/Code2_SPECSIG","/Code6_SPECSIG","/IfExtended","/Code7_SPECSIG","/ButtonFree","Code1_SPECSIG","Code0_SPECSIG");
+          
+            pterms["FB1_2_4"]=new Array("/Code5_SPECSIG","/Code4_SPECSIG","/Code3_SPECSIG","/Code2_SPECSIG","Code6_SPECSIG","/IfExtended","/Code7_SPECSIG","/ButtonFree","Code1_SPECSIG","/Code0_SPECSIG");
+          
+            pterms["FB1_2_5"]=new Array("Ready");
+          
+            pterms["FB2_1_1"]=new Array("Code5_SPECSIG","Code4_SPECSIG","/Code3_SPECSIG","Code2_SPECSIG","/Code6_SPECSIG","/IfExtended","/Code7_SPECSIG","/ButtonFree","/Code1_SPECSIG","Code0_SPECSIG");
+          
+            pterms["FB2_2_1"]=new Array("Code5_SPECSIG","Code3_SPECSIG","Code2_SPECSIG","/Code6_SPECSIG","/IfExtended","/Code7_SPECSIG","/ButtonFree","/Code1_SPECSIG","/Code0_SPECSIG");
+          
+            pterms["FB2_2_2"]=new Array("Code4_SPECSIG","Code3_SPECSIG","Code2_SPECSIG","/Code6_SPECSIG","/IfExtended","/Code7_SPECSIG","/ButtonFree","/Code1_SPECSIG","/Code0_SPECSIG");
+          
+            pterms["FB2_2_3"]=new Array("Code5_SPECSIG","/Code4_SPECSIG","/Code3_SPECSIG","/Code2_SPECSIG","/Code6_SPECSIG","/IfExtended","/Code7_SPECSIG","/ButtonFree","Code1_SPECSIG","Code0_SPECSIG");
+          
+            pterms["FB2_2_4"]=new Array("/Code5_SPECSIG","Code4_SPECSIG","Code3_SPECSIG","/Code2_SPECSIG","/Code6_SPECSIG","/IfExtended","/Code7_SPECSIG","/ButtonFree","Code1_SPECSIG","Code0_SPECSIG");
+          
+            pterms["FB2_2_5"]=new Array("Ready");
+          
+            pterms["FB2_3_1"]=new Array("/Code5_SPECSIG","/Code4_SPECSIG","/Code3_SPECSIG","/Code2_SPECSIG","Code6_SPECSIG","/IfExtended","/Code7_SPECSIG","/ButtonFree","Code1_SPECSIG","/Code0_SPECSIG");
+          
+            pterms["FB3_1_1"]=new Array("/Code5_SPECSIG","Code4_SPECSIG","Code3_SPECSIG","Code2_SPECSIG","/Code6_SPECSIG","/IfExtended","/Code7_SPECSIG","/ButtonFree","/Code1_SPECSIG","Code0_SPECSIG");
+          
+            pterms["FB3_2_1"]=new Array("Code5_SPECSIG","Code3_SPECSIG","Code2_SPECSIG","/Code6_SPECSIG","/IfExtended","/Code7_SPECSIG","/ButtonFree","/Code1_SPECSIG","/Code0_SPECSIG");
+          
+            pterms["FB3_2_2"]=new Array("Code5_SPECSIG","Code4_SPECSIG","/Code3_SPECSIG","/Code2_SPECSIG","/Code6_SPECSIG","/IfExtended","/Code7_SPECSIG","/ButtonFree","Code1_SPECSIG","Code0_SPECSIG");
+          
+            pterms["FB3_2_3"]=new Array("Code5_SPECSIG","/Code4_SPECSIG","Code3_SPECSIG","/Code2_SPECSIG","/Code6_SPECSIG","/IfExtended","/Code7_SPECSIG","/ButtonFree","Code1_SPECSIG","Code0_SPECSIG");
+          
+            pterms["FB3_2_4"]=new Array("/Code5_SPECSIG","Code4_SPECSIG","Code3_SPECSIG","/Code2_SPECSIG","/Code6_SPECSIG","/IfExtended","/Code7_SPECSIG","/ButtonFree","Code1_SPECSIG","Code0_SPECSIG");
+          
+            pterms["FB3_2_5"]=new Array("Ready");
+          
+            pterms["FB3_14_1"]=new Array("Code5_SPECSIG","/Code4_SPECSIG","Code2_SPECSIG","/Code6_SPECSIG","/IfExtended","/Code7_SPECSIG","/ButtonFree","/Code1_SPECSIG","/Code0_SPECSIG");
+          
+            pterms["FB3_14_2"]=new Array("Code5_SPECSIG","/Code4_SPECSIG","/Code2_SPECSIG","/Code6_SPECSIG","/IfExtended","/Code7_SPECSIG","/ButtonFree","Code1_SPECSIG","Code0_SPECSIG");
+          
+            pterms["FB3_14_3"]=new Array("Code5_SPECSIG","Code3_SPECSIG","/Code2_SPECSIG","/Code6_SPECSIG","/IfExtended","/Code7_SPECSIG","/ButtonFree","Code1_SPECSIG","Code0_SPECSIG");
+          
+            pterms["FB3_14_4"]=new Array("/Code5_SPECSIG","/Code4_SPECSIG","/Code3_SPECSIG","/Code2_SPECSIG","Code6_SPECSIG","/IfExtended","/Code7_SPECSIG","/ButtonFree","Code1_SPECSIG","/Code0_SPECSIG");
+          
+            pterms["FB3_14_5"]=new Array("Ready");
+          
+          d2["Frequency3_SPECSIG"]=new Array("FB1_2_1","FB1_2_2","FB1_2_3","FB1_2_4");
+          
+            d2imp["Frequency3_SPECSIG"]=new Array("1","1","1","1");
+          
+              gblclk["Frequency3_SPECSIG"]=new Array("Clock");
+            
+          ce["Frequency3_SPECSIG"]=new Array("FB1_2_5");
+          
+            ceimp["Frequency3_SPECSIG"]=new Array("1");
+          prld["Frequency3_SPECSIG"]="GND";
+          d2["Frequency0_SPECSIG"]=new Array("FB2_2_1","FB2_2_2","FB2_2_3","FB2_2_4","FB2_1_1","FB2_3_1");
+          
+            d2imp["Frequency0_SPECSIG"]=new Array("1","1","1","1","1","1");
+          
+              gblclk["Frequency0_SPECSIG"]=new Array("Clock");
+            
+          ce["Frequency0_SPECSIG"]=new Array("FB2_2_5");
+          
+            ceimp["Frequency0_SPECSIG"]=new Array("1");
+          prld["Frequency0_SPECSIG"]="GND";
+          d2["Frequency1_SPECSIG"]=new Array("FB3_2_1","FB3_2_2","FB3_2_3","FB3_2_4","FB3_1_1");
+          
+            d2imp["Frequency1_SPECSIG"]=new Array("1","1","1","1","1");
+          
+              gblclk["Frequency1_SPECSIG"]=new Array("Clock");
+            
+          ce["Frequency1_SPECSIG"]=new Array("FB3_2_5");
+          
+            ceimp["Frequency1_SPECSIG"]=new Array("1");
+          prld["Frequency1_SPECSIG"]="GND";
+          d2["Frequency2_SPECSIG"]=new Array("FB3_14_1","FB3_14_2","FB3_14_3","FB3_14_4");
+          
+            d2imp["Frequency2_SPECSIG"]=new Array("1","1","1","1");
+          
+              gblclk["Frequency2_SPECSIG"]=new Array("Clock");
+            
+          ce["Frequency2_SPECSIG"]=new Array("FB3_14_5");
+          
+            ceimp["Frequency2_SPECSIG"]=new Array("1");
+          prld["Frequency2_SPECSIG"]="GND";
+
+      uimSignals = new Array();
+
+      uimSigNegs = new Array();
+
+      uimPterms = new Array();
+      
+
+      
+        function getEqnList() {
+          var str = "<html><head><link type='text/css' href='style.css' rel='stylesheet'></head><body class='pgBgnd'>";
+          str += "<center><h3>Equations</h3></center>";
+          str += "<table width='90%' align='center' border='1' cellpadding='0' cellspacing='0'>";
+          for (s=0; s<uimSignals.length; s++) {
+            str += "<tr><td>";
+            str += retUimEqn(uimSignals[s]);
+            str += "</td></tr>";
+          }
+          for (s=0; s<signals.length; s++) {
+            str += "<tr><td>";
+            str += retEqn(signals[s]);
+            str += "</td></tr>";
+          }
+
+          var legend = retLegend();
+		      if (legend != "") {
+		        str += "<tr><td>" + legend + "</td></tr>";
+		      }
+
+          str += "</table>";
+          str += "<form><span class='pgRef'>";
+
+          if (!parent.leftnav.IsNS()) {
+            str += "<table width='90%' align='center'>";
+            str += "<tr><td align='left'><input type='button' value='back to top' ";
+            str += "onclick='javascript:parent.leftnav.showEqnAll()' ";
+            str += "onmouseover=\"window.status='goto top of page'; return true;\" ";
+            str += "onmouseout=\"window.status=''\">";
+            str += "</td>";
+            str += "<td align='right'>";
+            str += "<input type='button' value='print page' ";
+            str += "onclick='javascript:window.print()' ";
+            str += "onmouseover=\"window.status='print page'; return true;\" ";
+            str += "onmouseout=\"window.status=''\">";
+            str += "</td>";
+            str += "</tr></table>";
+          }
+          else {
+            str += "<table width='90%' align='center'>";
+            str += "<tr><td align='left'><a href='javascript:parent.leftnav.showEqnAll()'>back to top</a>";
+            str += "</td>";
+            str += "<td align='right'>";
+            str += "<a href='javascript:window.print()'>";
+            str += "print page</a>";
+            str += "</td>";
+            str += "</tr></table>";
+          }
+
+          str += "</span></form>";
+          str += "</body></html>";
+          return str;
+        }
+      
+    </script>
+</head></html>

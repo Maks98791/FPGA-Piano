@@ -1,0 +1,33 @@
+Pin Freeze File:  version P.20131013
+
+9572XL44PC XC9572XL-5-PC44
+ButtonFree S:PIN34
+Clock S:PIN5
+Code<0> S:PIN37
+Code<1> S:PIN39
+Code<2> S:PIN29
+Code<3> S:PIN40
+Code<4> S:PIN28
+Code<5> S:PIN36
+Code<6> S:PIN42
+Code<7> S:PIN33
+IfExtended S:PIN27
+Ready S:PIN43
+Frequency<0> S:PIN35
+Frequency<1> S:PIN11
+Frequency<2> S:PIN19
+Frequency<3> S:PIN1
+
+
+;The remaining section of the .gyd file is for documentation purposes only.
+;It shows where your internal equations were placed in the last successful fit.
+
+PARTITION FB1_2 Frequency_3
+
+PARTITION FB2_1 EXP6_ Frequency_0 EXP7_
+
+PARTITION FB3_1 EXP8_ Frequency_1
+PARTITION FB3_14 Frequency_2
+
+
+

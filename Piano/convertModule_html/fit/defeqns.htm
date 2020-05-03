@@ -1,0 +1,81 @@
+<html><head><link type='text/css' href='style.css' rel='stylesheet'></head><body class='pgBgnd'>
+<h3 align='center'>Equations</h3>
+<table width='90%' align='center' border='1' cellpadding='0' cellspacing='0'>
+<tr><td>
+</td></tr><tr><td>
+********** Mapped Logic **********
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+FDCPE_Frequency0: FDCPE port map (Frequency(0),Frequency_D(0),Clock,'0','0',Ready);
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Frequency_D(0) <= ((Code(5) AND Code(4) AND NOT Code(3) AND Code(2) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT Code(6) AND NOT IfExtended AND NOT Code(7) AND NOT ButtonFree AND NOT Code(1) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	Code(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT Code(5) AND NOT Code(4) AND NOT Code(3) AND NOT Code(2) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	Code(6) AND NOT IfExtended AND NOT Code(7) AND NOT ButtonFree AND Code(1) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT Code(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (Code(5) AND Code(3) AND Code(2) AND NOT Code(6) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT IfExtended AND NOT Code(7) AND NOT ButtonFree AND NOT Code(1) AND NOT Code(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (Code(4) AND Code(3) AND Code(2) AND NOT Code(6) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT IfExtended AND NOT Code(7) AND NOT ButtonFree AND NOT Code(1) AND NOT Code(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (Code(5) AND NOT Code(4) AND NOT Code(3) AND NOT Code(2) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT Code(6) AND NOT IfExtended AND NOT Code(7) AND NOT ButtonFree AND Code(1) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	Code(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT Code(5) AND Code(4) AND Code(3) AND NOT Code(2) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT Code(6) AND NOT IfExtended AND NOT Code(7) AND NOT ButtonFree AND Code(1) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	Code(0)));
+</td></tr><tr><td>
+FDCPE_Frequency1: FDCPE port map (Frequency(1),Frequency_D(1),Clock,'0','0',Ready);
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Frequency_D(1) <= ((NOT Code(5) AND Code(4) AND Code(3) AND Code(2) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT Code(6) AND NOT IfExtended AND NOT Code(7) AND NOT ButtonFree AND NOT Code(1) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	Code(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (Code(5) AND Code(3) AND Code(2) AND NOT Code(6) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT IfExtended AND NOT Code(7) AND NOT ButtonFree AND NOT Code(1) AND NOT Code(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (Code(5) AND Code(4) AND NOT Code(3) AND NOT Code(2) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT Code(6) AND NOT IfExtended AND NOT Code(7) AND NOT ButtonFree AND Code(1) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	Code(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (Code(5) AND NOT Code(4) AND Code(3) AND NOT Code(2) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT Code(6) AND NOT IfExtended AND NOT Code(7) AND NOT ButtonFree AND Code(1) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	Code(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT Code(5) AND Code(4) AND Code(3) AND NOT Code(2) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT Code(6) AND NOT IfExtended AND NOT Code(7) AND NOT ButtonFree AND Code(1) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	Code(0)));
+</td></tr><tr><td>
+FDCPE_Frequency2: FDCPE port map (Frequency(2),Frequency_D(2),Clock,'0','0',Ready);
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Frequency_D(2) <= ((Code(5) AND NOT Code(4) AND Code(2) AND NOT Code(6) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT IfExtended AND NOT Code(7) AND NOT ButtonFree AND NOT Code(1) AND NOT Code(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (Code(5) AND NOT Code(4) AND NOT Code(2) AND NOT Code(6) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT IfExtended AND NOT Code(7) AND NOT ButtonFree AND Code(1) AND Code(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (Code(5) AND Code(3) AND NOT Code(2) AND NOT Code(6) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT IfExtended AND NOT Code(7) AND NOT ButtonFree AND Code(1) AND Code(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT Code(5) AND NOT Code(4) AND NOT Code(3) AND NOT Code(2) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	Code(6) AND NOT IfExtended AND NOT Code(7) AND NOT ButtonFree AND Code(1) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT Code(0)));
+</td></tr><tr><td>
+FDCPE_Frequency3: FDCPE port map (Frequency(3),Frequency_D(3),Clock,'0','0',Ready);
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Frequency_D(3) <= ((Code(5) AND Code(4) AND NOT Code(3) AND Code(2) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT Code(6) AND NOT IfExtended AND NOT Code(7) AND NOT ButtonFree AND NOT Code(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (Code(5) AND Code(4) AND Code(2) AND NOT Code(6) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT IfExtended AND NOT Code(7) AND NOT ButtonFree AND NOT Code(1) AND NOT Code(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (Code(5) AND Code(4) AND NOT Code(2) AND NOT Code(6) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT IfExtended AND NOT Code(7) AND NOT ButtonFree AND Code(1) AND Code(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT Code(5) AND NOT Code(4) AND NOT Code(3) AND NOT Code(2) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	Code(6) AND NOT IfExtended AND NOT Code(7) AND NOT ButtonFree AND Code(1) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT Code(0)));
+</td></tr><tr><td>
+Register Legend:
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FDCPE (Q,D,C,CLR,PRE,CE); 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FTCPE (Q,D,C,CLR,PRE,CE); 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; LDCP  (Q,D,G,CLR,PRE); 
+</td></tr><tr><td>
+</td></tr>
+</table>
+<form><span class="pgRef"><table width="90%" align="center"><tr>
+<td align="left"><input type="button" onclick="javascript:parent.leftnav.showTop()" onmouseover="window.status='goto top of page'; return true;" onmouseout="window.status=''" value="back to top"></td>
+<td align="right"><input type="button" onclick="window.print()" onmouseover="window.status='print page'; return true;" onmouseout="window.status=''" value="print page"></td>
+</tr></table></span></form>
+</body></html>

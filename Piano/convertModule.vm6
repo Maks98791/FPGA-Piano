@@ -1,0 +1,620 @@
+NDS Database:  version P.20131013
+
+NDS_INFO | xc9500xl | 9572XL44PC | XC9572XL-5-PC44
+
+DEVICE | 9572XL | 9572XL44PC | 
+
+NETWORK | convertModule | 0 | 0 | 16391
+
+INPUT_INSTANCE | 0 | 0 | NULL | Code_5_IBUF | convertModule_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | Code<5> | 1539 | PI | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | Code_5_IBUF | 1519 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_5_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | Code_4_IBUF | convertModule_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | Code<4> | 1540 | PI | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | Code_4_IBUF | 1520 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_4_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | Code_3_IBUF | convertModule_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | Code<3> | 1541 | PI | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | Code_3_IBUF | 1521 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_3_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | Code_2_IBUF | convertModule_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | Code<2> | 1542 | PI | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | Code_2_IBUF | 1522 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_2_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | Code_6_IBUF | convertModule_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | Code<6> | 1543 | PI | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | Code_6_IBUF | 1523 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_6_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | Ready_IBUF | convertModule_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | Ready | 1544 | PI | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | Ready_IBUF | 1524 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Ready_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | Clock_IBUF | convertModule_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | Clock | 1545 | PI | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 3 | 5 | II_FCLK
+NODE | FCLKIO_0 | 1525 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Clock_IBUF | 3 | 5 | II_FCLK
+
+INPUT_INSTANCE | 0 | 0 | NULL | IfExtended_IBUF | convertModule_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | IfExtended | 1546 | PI | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | IfExtended_IBUF | 1526 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | IfExtended_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | Code_7_IBUF | convertModule_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | Code<7> | 1547 | PI | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | Code_7_IBUF | 1527 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_7_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | ButtonFree_IBUF | convertModule_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | ButtonFree | 1548 | PI | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | ButtonFree_IBUF | 1528 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | ButtonFree_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | Code_1_IBUF | convertModule_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | Code<1> | 1549 | PI | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | Code_1_IBUF | 1533 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_1_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | Code_0_IBUF | convertModule_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | Code<0> | 1550 | PI | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | Code_0_IBUF | 1534 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_0_IBUF | 0 | 5 | II_IMUX
+
+MACROCELL_INSTANCE | PrldLow+OptxMapped | Frequency_0 | convertModule_COPY_0_COPY_0 | 2155873280 | 14 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_5_IBUF | 1519 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_5_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_3_IBUF | 1521 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_2_IBUF | 1522 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_6_IBUF | 1523 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_6_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | IfExtended_IBUF | 1526 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | IfExtended_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_7_IBUF | 1527 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ButtonFree_IBUF | 1528 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | ButtonFree_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_1_IBUF | 1533 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_0_IBUF | 1534 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_4_IBUF | 1520 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_4_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Ready_IBUF | 1524 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Ready_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FCLKIO_0 | 1525 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Clock_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | EXP6_.EXP | 1573 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | EXP6_.EXP | EXP6_ | 4 | 0 | MC_EXPORT
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | EXP7_.EXP | 1574 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | EXP7_.EXP | EXP7_ | 4 | 0 | MC_EXPORT
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | Frequency_0 | 1529 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | Frequency_0.Q | Frequency_0 | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | Frequency_0.SI | Frequency_0 | 0 | 13 | 3
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_5_IBUF | 1519 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_5_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_3_IBUF | 1521 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_2_IBUF | 1522 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_6_IBUF | 1523 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_6_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | IfExtended_IBUF | 1526 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | IfExtended_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_7_IBUF | 1527 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ButtonFree_IBUF | 1528 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | ButtonFree_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_1_IBUF | 1533 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_0_IBUF | 1534 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_4_IBUF | 1520 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_4_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Ready_IBUF | 1524 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Ready_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | EXP6_.EXP | 1573 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | EXP6_.EXP | EXP6_ | 4 | 0 | MC_EXPORT
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | EXP7_.EXP | 1574 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | EXP7_.EXP | EXP7_ | 4 | 0 | MC_EXPORT
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | Frequency_0.D1 | 1552 | ? | 0 | 4096 | Frequency_0 | NULL | NULL | Frequency_0.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | Frequency_0.D2 | 1553 | ? | 0 | 4096 | Frequency_0 | NULL | NULL | Frequency_0.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 1 | IV_TRUE | EXP6_.EXP
+SPPTERM | 1 | IV_TRUE | EXP7_.EXP
+SPPTERM | 9 | IV_TRUE | Code_5_IBUF | IV_TRUE | Code_3_IBUF | IV_TRUE | Code_2_IBUF | IV_FALSE | Code_6_IBUF | IV_FALSE | IfExtended_IBUF | IV_FALSE | Code_7_IBUF | IV_FALSE | ButtonFree_IBUF | IV_FALSE | Code_1_IBUF | IV_FALSE | Code_0_IBUF
+SPPTERM | 9 | IV_TRUE | Code_4_IBUF | IV_TRUE | Code_3_IBUF | IV_TRUE | Code_2_IBUF | IV_FALSE | Code_6_IBUF | IV_FALSE | IfExtended_IBUF | IV_FALSE | Code_7_IBUF | IV_FALSE | ButtonFree_IBUF | IV_FALSE | Code_1_IBUF | IV_FALSE | Code_0_IBUF
+SPPTERM | 10 | IV_TRUE | Code_5_IBUF | IV_FALSE | Code_4_IBUF | IV_FALSE | Code_3_IBUF | IV_FALSE | Code_2_IBUF | IV_FALSE | Code_6_IBUF | IV_FALSE | IfExtended_IBUF | IV_FALSE | Code_7_IBUF | IV_FALSE | ButtonFree_IBUF | IV_TRUE | Code_1_IBUF | IV_TRUE | Code_0_IBUF
+SPPTERM | 10 | IV_FALSE | Code_5_IBUF | IV_TRUE | Code_4_IBUF | IV_TRUE | Code_3_IBUF | IV_FALSE | Code_2_IBUF | IV_FALSE | Code_6_IBUF | IV_FALSE | IfExtended_IBUF | IV_FALSE | Code_7_IBUF | IV_FALSE | ButtonFree_IBUF | IV_TRUE | Code_1_IBUF | IV_TRUE | Code_0_IBUF
+OUTPUT_NODE_TYPE | 10 | 9 | MC_SI_CE
+SIGNAL | NODE | Frequency_0.CE | 1554 | ? | 0 | 4096 | Frequency_0 | NULL | NULL | Frequency_0.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 1 | IV_TRUE | Ready_IBUF
+
+SRFF_INSTANCE | Frequency_0.REG | Frequency_0 | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | Frequency_0.D | 1551 | ? | 0 | 0 | Frequency_0 | NULL | NULL | Frequency_0.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | FCLKIO_0 | 1525 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Clock_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 4 | 8 | SRFF_CE
+SIGNAL | NODE | Frequency_0.CE | 1554 | ? | 0 | 4096 | Frequency_0 | NULL | NULL | Frequency_0.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 1 | IV_TRUE | Ready_IBUF
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | Frequency_0.Q | 1555 | ? | 0 | 0 | Frequency_0 | NULL | NULL | Frequency_0.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+OptxMapped | Frequency_1 | convertModule_COPY_0_COPY_0 | 2155873280 | 13 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_5_IBUF | 1519 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_5_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_3_IBUF | 1521 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_2_IBUF | 1522 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_6_IBUF | 1523 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_6_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | IfExtended_IBUF | 1526 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | IfExtended_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_7_IBUF | 1527 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ButtonFree_IBUF | 1528 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | ButtonFree_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_1_IBUF | 1533 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_0_IBUF | 1534 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_4_IBUF | 1520 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_4_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Ready_IBUF | 1524 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Ready_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FCLKIO_0 | 1525 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Clock_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | EXP8_.EXP | 1576 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | EXP8_.EXP | EXP8_ | 4 | 0 | MC_EXPORT
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | Frequency_1 | 1530 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | Frequency_1.Q | Frequency_1 | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | Frequency_1.SI | Frequency_1 | 0 | 12 | 3
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_5_IBUF | 1519 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_5_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_3_IBUF | 1521 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_2_IBUF | 1522 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_6_IBUF | 1523 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_6_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | IfExtended_IBUF | 1526 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | IfExtended_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_7_IBUF | 1527 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ButtonFree_IBUF | 1528 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | ButtonFree_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_1_IBUF | 1533 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_0_IBUF | 1534 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_4_IBUF | 1520 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_4_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Ready_IBUF | 1524 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Ready_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | EXP8_.EXP | 1576 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | EXP8_.EXP | EXP8_ | 4 | 0 | MC_EXPORT
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | Frequency_1.D1 | 1557 | ? | 0 | 4096 | Frequency_1 | NULL | NULL | Frequency_1.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | Frequency_1.D2 | 1558 | ? | 0 | 4096 | Frequency_1 | NULL | NULL | Frequency_1.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 1 | IV_TRUE | EXP8_.EXP
+SPPTERM | 9 | IV_TRUE | Code_5_IBUF | IV_TRUE | Code_3_IBUF | IV_TRUE | Code_2_IBUF | IV_FALSE | Code_6_IBUF | IV_FALSE | IfExtended_IBUF | IV_FALSE | Code_7_IBUF | IV_FALSE | ButtonFree_IBUF | IV_FALSE | Code_1_IBUF | IV_FALSE | Code_0_IBUF
+SPPTERM | 10 | IV_TRUE | Code_5_IBUF | IV_TRUE | Code_4_IBUF | IV_FALSE | Code_3_IBUF | IV_FALSE | Code_2_IBUF | IV_FALSE | Code_6_IBUF | IV_FALSE | IfExtended_IBUF | IV_FALSE | Code_7_IBUF | IV_FALSE | ButtonFree_IBUF | IV_TRUE | Code_1_IBUF | IV_TRUE | Code_0_IBUF
+SPPTERM | 10 | IV_TRUE | Code_5_IBUF | IV_FALSE | Code_4_IBUF | IV_TRUE | Code_3_IBUF | IV_FALSE | Code_2_IBUF | IV_FALSE | Code_6_IBUF | IV_FALSE | IfExtended_IBUF | IV_FALSE | Code_7_IBUF | IV_FALSE | ButtonFree_IBUF | IV_TRUE | Code_1_IBUF | IV_TRUE | Code_0_IBUF
+SPPTERM | 10 | IV_FALSE | Code_5_IBUF | IV_TRUE | Code_4_IBUF | IV_TRUE | Code_3_IBUF | IV_FALSE | Code_2_IBUF | IV_FALSE | Code_6_IBUF | IV_FALSE | IfExtended_IBUF | IV_FALSE | Code_7_IBUF | IV_FALSE | ButtonFree_IBUF | IV_TRUE | Code_1_IBUF | IV_TRUE | Code_0_IBUF
+OUTPUT_NODE_TYPE | 10 | 9 | MC_SI_CE
+SIGNAL | NODE | Frequency_1.CE | 1559 | ? | 0 | 4096 | Frequency_1 | NULL | NULL | Frequency_1.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 1 | IV_TRUE | Ready_IBUF
+
+SRFF_INSTANCE | Frequency_1.REG | Frequency_1 | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | Frequency_1.D | 1556 | ? | 0 | 0 | Frequency_1 | NULL | NULL | Frequency_1.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | FCLKIO_0 | 1525 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Clock_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 4 | 8 | SRFF_CE
+SIGNAL | NODE | Frequency_1.CE | 1559 | ? | 0 | 4096 | Frequency_1 | NULL | NULL | Frequency_1.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 1 | IV_TRUE | Ready_IBUF
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | Frequency_1.Q | 1560 | ? | 0 | 0 | Frequency_1 | NULL | NULL | Frequency_1.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+OptxMapped | Frequency_2 | convertModule_COPY_0_COPY_0 | 2155873280 | 12 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_5_IBUF | 1519 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_5_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_4_IBUF | 1520 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_4_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_2_IBUF | 1522 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_6_IBUF | 1523 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_6_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | IfExtended_IBUF | 1526 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | IfExtended_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_7_IBUF | 1527 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ButtonFree_IBUF | 1528 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | ButtonFree_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_1_IBUF | 1533 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_0_IBUF | 1534 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_3_IBUF | 1521 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Ready_IBUF | 1524 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Ready_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FCLKIO_0 | 1525 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Clock_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | Frequency_2 | 1531 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | Frequency_2.Q | Frequency_2 | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | Frequency_2.SI | Frequency_2 | 0 | 11 | 3
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_5_IBUF | 1519 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_5_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_4_IBUF | 1520 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_4_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_2_IBUF | 1522 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_6_IBUF | 1523 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_6_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | IfExtended_IBUF | 1526 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | IfExtended_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_7_IBUF | 1527 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ButtonFree_IBUF | 1528 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | ButtonFree_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_1_IBUF | 1533 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_0_IBUF | 1534 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_3_IBUF | 1521 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Ready_IBUF | 1524 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Ready_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | Frequency_2.D1 | 1562 | ? | 0 | 4096 | Frequency_2 | NULL | NULL | Frequency_2.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | Frequency_2.D2 | 1563 | ? | 0 | 4096 | Frequency_2 | NULL | NULL | Frequency_2.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 9 | IV_TRUE | Code_5_IBUF | IV_FALSE | Code_4_IBUF | IV_TRUE | Code_2_IBUF | IV_FALSE | Code_6_IBUF | IV_FALSE | IfExtended_IBUF | IV_FALSE | Code_7_IBUF | IV_FALSE | ButtonFree_IBUF | IV_FALSE | Code_1_IBUF | IV_FALSE | Code_0_IBUF
+SPPTERM | 9 | IV_TRUE | Code_5_IBUF | IV_FALSE | Code_4_IBUF | IV_FALSE | Code_2_IBUF | IV_FALSE | Code_6_IBUF | IV_FALSE | IfExtended_IBUF | IV_FALSE | Code_7_IBUF | IV_FALSE | ButtonFree_IBUF | IV_TRUE | Code_1_IBUF | IV_TRUE | Code_0_IBUF
+SPPTERM | 9 | IV_TRUE | Code_5_IBUF | IV_TRUE | Code_3_IBUF | IV_FALSE | Code_2_IBUF | IV_FALSE | Code_6_IBUF | IV_FALSE | IfExtended_IBUF | IV_FALSE | Code_7_IBUF | IV_FALSE | ButtonFree_IBUF | IV_TRUE | Code_1_IBUF | IV_TRUE | Code_0_IBUF
+SPPTERM | 10 | IV_FALSE | Code_5_IBUF | IV_FALSE | Code_4_IBUF | IV_FALSE | Code_3_IBUF | IV_FALSE | Code_2_IBUF | IV_TRUE | Code_6_IBUF | IV_FALSE | IfExtended_IBUF | IV_FALSE | Code_7_IBUF | IV_FALSE | ButtonFree_IBUF | IV_TRUE | Code_1_IBUF | IV_FALSE | Code_0_IBUF
+OUTPUT_NODE_TYPE | 10 | 9 | MC_SI_CE
+SIGNAL | NODE | Frequency_2.CE | 1564 | ? | 0 | 4096 | Frequency_2 | NULL | NULL | Frequency_2.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 1 | IV_TRUE | Ready_IBUF
+
+SRFF_INSTANCE | Frequency_2.REG | Frequency_2 | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | Frequency_2.D | 1561 | ? | 0 | 0 | Frequency_2 | NULL | NULL | Frequency_2.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | FCLKIO_0 | 1525 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Clock_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 4 | 8 | SRFF_CE
+SIGNAL | NODE | Frequency_2.CE | 1564 | ? | 0 | 4096 | Frequency_2 | NULL | NULL | Frequency_2.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 1 | IV_TRUE | Ready_IBUF
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | Frequency_2.Q | 1565 | ? | 0 | 0 | Frequency_2 | NULL | NULL | Frequency_2.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+OptxMapped | Frequency_3 | convertModule_COPY_0_COPY_0 | 2155873280 | 12 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_5_IBUF | 1519 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_5_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_4_IBUF | 1520 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_4_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_3_IBUF | 1521 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_2_IBUF | 1522 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_6_IBUF | 1523 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_6_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | IfExtended_IBUF | 1526 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | IfExtended_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_7_IBUF | 1527 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ButtonFree_IBUF | 1528 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | ButtonFree_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_1_IBUF | 1533 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_0_IBUF | 1534 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Ready_IBUF | 1524 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Ready_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FCLKIO_0 | 1525 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Clock_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | Frequency_3 | 1532 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | Frequency_3.Q | Frequency_3 | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | Frequency_3.SI | Frequency_3 | 0 | 11 | 3
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_5_IBUF | 1519 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_5_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_4_IBUF | 1520 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_4_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_3_IBUF | 1521 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_2_IBUF | 1522 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_6_IBUF | 1523 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_6_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | IfExtended_IBUF | 1526 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | IfExtended_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_7_IBUF | 1527 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ButtonFree_IBUF | 1528 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | ButtonFree_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_1_IBUF | 1533 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_0_IBUF | 1534 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Ready_IBUF | 1524 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Ready_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | Frequency_3.D1 | 1567 | ? | 0 | 4096 | Frequency_3 | NULL | NULL | Frequency_3.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | Frequency_3.D2 | 1568 | ? | 0 | 4096 | Frequency_3 | NULL | NULL | Frequency_3.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 9 | IV_TRUE | Code_5_IBUF | IV_TRUE | Code_4_IBUF | IV_FALSE | Code_3_IBUF | IV_TRUE | Code_2_IBUF | IV_FALSE | Code_6_IBUF | IV_FALSE | IfExtended_IBUF | IV_FALSE | Code_7_IBUF | IV_FALSE | ButtonFree_IBUF | IV_FALSE | Code_1_IBUF
+SPPTERM | 9 | IV_TRUE | Code_5_IBUF | IV_TRUE | Code_4_IBUF | IV_TRUE | Code_2_IBUF | IV_FALSE | Code_6_IBUF | IV_FALSE | IfExtended_IBUF | IV_FALSE | Code_7_IBUF | IV_FALSE | ButtonFree_IBUF | IV_FALSE | Code_1_IBUF | IV_FALSE | Code_0_IBUF
+SPPTERM | 9 | IV_TRUE | Code_5_IBUF | IV_TRUE | Code_4_IBUF | IV_FALSE | Code_2_IBUF | IV_FALSE | Code_6_IBUF | IV_FALSE | IfExtended_IBUF | IV_FALSE | Code_7_IBUF | IV_FALSE | ButtonFree_IBUF | IV_TRUE | Code_1_IBUF | IV_TRUE | Code_0_IBUF
+SPPTERM | 10 | IV_FALSE | Code_5_IBUF | IV_FALSE | Code_4_IBUF | IV_FALSE | Code_3_IBUF | IV_FALSE | Code_2_IBUF | IV_TRUE | Code_6_IBUF | IV_FALSE | IfExtended_IBUF | IV_FALSE | Code_7_IBUF | IV_FALSE | ButtonFree_IBUF | IV_TRUE | Code_1_IBUF | IV_FALSE | Code_0_IBUF
+OUTPUT_NODE_TYPE | 10 | 9 | MC_SI_CE
+SIGNAL | NODE | Frequency_3.CE | 1569 | ? | 0 | 4096 | Frequency_3 | NULL | NULL | Frequency_3.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 1 | IV_TRUE | Ready_IBUF
+
+SRFF_INSTANCE | Frequency_3.REG | Frequency_3 | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | Frequency_3.D | 1566 | ? | 0 | 0 | Frequency_3 | NULL | NULL | Frequency_3.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | FCLKIO_0 | 1525 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Clock_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 4 | 8 | SRFF_CE
+SIGNAL | NODE | Frequency_3.CE | 1569 | ? | 0 | 4096 | Frequency_3 | NULL | NULL | Frequency_3.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 1 | IV_TRUE | Ready_IBUF
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | Frequency_3.Q | 1570 | ? | 0 | 0 | Frequency_3 | NULL | NULL | Frequency_3.REG | 0 | 8 | SRFF_Q
+
+OUTPUT_INSTANCE | 0 | Frequency<0> | convertModule_COPY_0_COPY_0 | 7 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | Frequency_0 | 1529 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | Frequency_0.Q | Frequency_0 | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | Frequency<0> | 1535 | PO | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Frequency<0> | 0 | 6 | OI_OUT
+
+OUTPUT_INSTANCE | 0 | Frequency<1> | convertModule_COPY_0_COPY_0 | 7 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | Frequency_1 | 1530 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | Frequency_1.Q | Frequency_1 | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | Frequency<1> | 1536 | PO | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Frequency<1> | 0 | 6 | OI_OUT
+
+OUTPUT_INSTANCE | 0 | Frequency<2> | convertModule_COPY_0_COPY_0 | 7 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | Frequency_2 | 1531 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | Frequency_2.Q | Frequency_2 | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | Frequency<2> | 1537 | PO | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Frequency<2> | 0 | 6 | OI_OUT
+
+OUTPUT_INSTANCE | 0 | Frequency<3> | convertModule_COPY_0_COPY_0 | 7 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | Frequency_3 | 1532 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | Frequency_3.Q | Frequency_3 | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | Frequency<3> | 1538 | PO | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Frequency<3> | 0 | 6 | OI_OUT
+
+MACROCELL_INSTANCE | NULL | EXP6_ | convertModule_COPY_0_COPY_0 | 2147483648 | 10 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_5_IBUF | 1519 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_5_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_4_IBUF | 1520 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_4_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_3_IBUF | 1521 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_2_IBUF | 1522 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_6_IBUF | 1523 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_6_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | IfExtended_IBUF | 1526 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | IfExtended_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_7_IBUF | 1527 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ButtonFree_IBUF | 1528 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | ButtonFree_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_1_IBUF | 1533 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_0_IBUF | 1534 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_0_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 4 | 0 | MC_EXPORT
+NODE | EXP6_.EXP | 1573 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | EXP6_.EXP | EXP6_ | 4 | 0 | MC_EXPORT
+
+SIGNAL_INSTANCE | EXP6_.SI | EXP6_ | 0 | 10 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_5_IBUF | 1519 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_5_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_4_IBUF | 1520 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_4_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_3_IBUF | 1521 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_2_IBUF | 1522 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_6_IBUF | 1523 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_6_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | IfExtended_IBUF | 1526 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | IfExtended_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_7_IBUF | 1527 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ButtonFree_IBUF | 1528 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | ButtonFree_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_1_IBUF | 1533 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_0_IBUF | 1534 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_0_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 7 | 9 | MC_SI_EXPORT
+SIGNAL | NODE | EXP6_.EXP | 1571 | ? | 0 | 0 | EXP6_ | NULL | NULL | EXP6_.SI | 7 | 9 | MC_SI_EXPORT
+SPPTERM | 10 | IV_TRUE | Code_5_IBUF | IV_TRUE | Code_4_IBUF | IV_FALSE | Code_3_IBUF | IV_TRUE | Code_2_IBUF | IV_FALSE | Code_6_IBUF | IV_FALSE | IfExtended_IBUF | IV_FALSE | Code_7_IBUF | IV_FALSE | ButtonFree_IBUF | IV_FALSE | Code_1_IBUF | IV_TRUE | Code_0_IBUF
+
+MACROCELL_INSTANCE | NULL | EXP7_ | convertModule_COPY_0_COPY_0 | 2147483648 | 10 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_5_IBUF | 1519 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_5_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_4_IBUF | 1520 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_4_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_3_IBUF | 1521 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_2_IBUF | 1522 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_6_IBUF | 1523 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_6_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | IfExtended_IBUF | 1526 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | IfExtended_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_7_IBUF | 1527 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ButtonFree_IBUF | 1528 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | ButtonFree_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_1_IBUF | 1533 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_0_IBUF | 1534 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_0_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 4 | 0 | MC_EXPORT
+NODE | EXP7_.EXP | 1574 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | EXP7_.EXP | EXP7_ | 4 | 0 | MC_EXPORT
+
+SIGNAL_INSTANCE | EXP7_.SI | EXP7_ | 0 | 10 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_5_IBUF | 1519 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_5_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_4_IBUF | 1520 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_4_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_3_IBUF | 1521 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_2_IBUF | 1522 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_6_IBUF | 1523 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_6_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | IfExtended_IBUF | 1526 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | IfExtended_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_7_IBUF | 1527 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ButtonFree_IBUF | 1528 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | ButtonFree_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_1_IBUF | 1533 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_0_IBUF | 1534 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_0_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 7 | 9 | MC_SI_EXPORT
+SIGNAL | NODE | EXP7_.EXP | 1572 | ? | 0 | 0 | EXP7_ | NULL | NULL | EXP7_.SI | 7 | 9 | MC_SI_EXPORT
+SPPTERM | 10 | IV_FALSE | Code_5_IBUF | IV_FALSE | Code_4_IBUF | IV_FALSE | Code_3_IBUF | IV_FALSE | Code_2_IBUF | IV_TRUE | Code_6_IBUF | IV_FALSE | IfExtended_IBUF | IV_FALSE | Code_7_IBUF | IV_FALSE | ButtonFree_IBUF | IV_TRUE | Code_1_IBUF | IV_FALSE | Code_0_IBUF
+
+MACROCELL_INSTANCE | NULL | EXP8_ | convertModule_COPY_0_COPY_0 | 2147483648 | 10 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_5_IBUF | 1519 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_5_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_4_IBUF | 1520 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_4_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_3_IBUF | 1521 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_2_IBUF | 1522 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_6_IBUF | 1523 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_6_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | IfExtended_IBUF | 1526 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | IfExtended_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_7_IBUF | 1527 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ButtonFree_IBUF | 1528 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | ButtonFree_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_1_IBUF | 1533 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_0_IBUF | 1534 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_0_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 4 | 0 | MC_EXPORT
+NODE | EXP8_.EXP | 1576 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | EXP8_.EXP | EXP8_ | 4 | 0 | MC_EXPORT
+
+SIGNAL_INSTANCE | EXP8_.SI | EXP8_ | 0 | 10 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_5_IBUF | 1519 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_5_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_4_IBUF | 1520 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_4_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_3_IBUF | 1521 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_2_IBUF | 1522 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_6_IBUF | 1523 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_6_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | IfExtended_IBUF | 1526 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | IfExtended_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_7_IBUF | 1527 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | ButtonFree_IBUF | 1528 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | ButtonFree_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_1_IBUF | 1533 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Code_0_IBUF | 1534 | ? | 0 | 0 | convertModule_COPY_0_COPY_0 | NULL | NULL | Code_0_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 7 | 9 | MC_SI_EXPORT
+SIGNAL | NODE | EXP8_.EXP | 1575 | ? | 0 | 0 | EXP8_ | NULL | NULL | EXP8_.SI | 7 | 9 | MC_SI_EXPORT
+SPPTERM | 10 | IV_FALSE | Code_5_IBUF | IV_TRUE | Code_4_IBUF | IV_TRUE | Code_3_IBUF | IV_TRUE | Code_2_IBUF | IV_FALSE | Code_6_IBUF | IV_FALSE | IfExtended_IBUF | IV_FALSE | Code_7_IBUF | IV_FALSE | ButtonFree_IBUF | IV_FALSE | Code_1_IBUF | IV_TRUE | Code_0_IBUF
+
+FB_INSTANCE | FOOBAR1_ | convertModule_COPY_0_COPY_0 | 0 | 0 | 0
+FBPIN | 2 | Frequency_3 | 1 | NULL | 0 | Frequency<3> | 1 | 1 | 49152
+FBPIN | 9 | NULL | 0 | Clock_IBUF | 1 | NULL | 0 | 5 | 57344
+
+FB_INSTANCE | FOOBAR2_ | convertModule_COPY_0_COPY_0 | 0 | 0 | 0
+FBPIN | 1 | EXP6_ | 1 | NULL | 0 | NULL | 0
+FBPIN | 2 | Frequency_0 | 1 | NULL | 0 | Frequency<0> | 1 | 35 | 49152
+FBPIN | 3 | EXP7_ | 1 | NULL | 0 | NULL | 0
+FBPIN | 5 | NULL | 0 | Code_5_IBUF | 1 | NULL | 0 | 36 | 49152
+FBPIN | 6 | NULL | 0 | Code_0_IBUF | 1 | NULL | 0 | 37 | 49152
+FBPIN | 9 | NULL | 0 | Code_1_IBUF | 1 | NULL | 0 | 39 | 51200
+FBPIN | 11 | NULL | 0 | Code_3_IBUF | 1 | NULL | 0 | 40 | 53248
+FBPIN | 14 | NULL | 0 | Code_6_IBUF | 1 | NULL | 0 | 42 | 53248
+FBPIN | 15 | NULL | 0 | Ready_IBUF | 1 | NULL | 0 | 43 | 49152
+
+FB_INSTANCE | FOOBAR3_ | convertModule_COPY_0_COPY_0 | 0 | 0 | 0
+FBPIN | 1 | EXP8_ | 1 | NULL | 0 | NULL | 0
+FBPIN | 2 | Frequency_1 | 1 | NULL | 0 | Frequency<1> | 1 | 11 | 49152
+FBPIN | 14 | Frequency_2 | 1 | NULL | 0 | Frequency<2> | 1 | 19 | 49152
+
+FB_INSTANCE | FOOBAR4_ | convertModule_COPY_0_COPY_0 | 0 | 0 | 0
+FBPIN | 8 | NULL | 0 | IfExtended_IBUF | 1 | NULL | 0 | 27 | 49152
+FBPIN | 11 | NULL | 0 | Code_4_IBUF | 1 | NULL | 0 | 28 | 49152
+FBPIN | 14 | NULL | 0 | Code_2_IBUF | 1 | NULL | 0 | 29 | 49152
+FBPIN | 15 | NULL | 0 | Code_7_IBUF | 1 | NULL | 0 | 33 | 49152
+FBPIN | 17 | NULL | 0 | ButtonFree_IBUF | 1 | NULL | 0 | 34 | 49152
+
+FB_INSTANCE | INPUTPINS_FOOBAR5_ | convertModule_COPY_0_COPY_0 | 0 | 0 | 0
+
+BUSINFO | CODE<7:0> | 8 | 0 | 0 | Code<0> | 7 | Code<1> | 6 | Code<2> | 5 | Code<3> | 4 | Code<4> | 3 | Code<5> | 2 | Code<6> | 1 | Code<7> | 0
+BUSINFO | FREQUENCY<3:0> | 4 | 0 | 1 | Frequency<0> | 3 | Frequency<1> | 2 | Frequency<2> | 1 | Frequency<3> | 0
+
+FB_ORDER_OF_INPUTS | FOOBAR1_ | 1 | ButtonFree | 34 | 8 | Code<6> | 42 | 10 | Code<0> | 37 | 17 | Code<2> | 29 | 23 | Code<5> | 36
+FB_ORDER_OF_INPUTS | FOOBAR1_ | 38 | Code<4> | 28 | 41 | IfExtended | 27 | 42 | Code<7> | 33 | 45 | Ready | 43 | 49 | Code<3> | 40
+FB_ORDER_OF_INPUTS | FOOBAR1_ | 52 | Code<1> | 39
+
+FB_IMUX_INDEX | FOOBAR1_ | -1 | 73 | -1 | -1 | -1 | -1 | -1 | -1 | 98 | -1 | 82 | -1 | -1 | -1 | -1 | -1 | -1 | 89 | -1 | -1 | -1 | -1 | -1 | 80 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | 95 | -1 | -1 | 101 | 75 | -1 | -1 | 102 | -1 | -1 | -1 | 92 | -1 | -1 | 86 | -1
+
+
+FB_ORDER_OF_INPUTS | FOOBAR2_ | 1 | ButtonFree | 34 | 8 | Code<6> | 42 | 10 | Code<0> | 37 | 17 | Code<2> | 29 | 23 | Code<5> | 36
+FB_ORDER_OF_INPUTS | FOOBAR2_ | 38 | Code<4> | 28 | 41 | IfExtended | 27 | 42 | Code<7> | 33 | 45 | Ready | 43 | 49 | Code<3> | 40
+FB_ORDER_OF_INPUTS | FOOBAR2_ | 52 | Code<1> | 39
+
+FB_IMUX_INDEX | FOOBAR2_ | -1 | 73 | -1 | -1 | -1 | -1 | -1 | -1 | 98 | -1 | 82 | -1 | -1 | -1 | -1 | -1 | -1 | 89 | -1 | -1 | -1 | -1 | -1 | 80 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | 95 | -1 | -1 | 101 | 75 | -1 | -1 | 102 | -1 | -1 | -1 | 92 | -1 | -1 | 86 | -1
+
+
+FB_ORDER_OF_INPUTS | FOOBAR3_ | 1 | ButtonFree | 34 | 8 | Code<6> | 42 | 10 | Code<0> | 37 | 17 | Code<2> | 29 | 23 | Code<5> | 36
+FB_ORDER_OF_INPUTS | FOOBAR3_ | 38 | Code<4> | 28 | 41 | IfExtended | 27 | 42 | Code<7> | 33 | 45 | Ready | 43 | 49 | Code<3> | 40
+FB_ORDER_OF_INPUTS | FOOBAR3_ | 52 | Code<1> | 39
+
+FB_IMUX_INDEX | FOOBAR3_ | -1 | 73 | -1 | -1 | -1 | -1 | -1 | -1 | 98 | -1 | 82 | -1 | -1 | -1 | -1 | -1 | -1 | 89 | -1 | -1 | -1 | -1 | -1 | 80 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | 95 | -1 | -1 | 101 | 75 | -1 | -1 | 102 | -1 | -1 | -1 | 92 | -1 | -1 | 86 | -1
+
+
+GLOBAL_FCLK | Clock | 0 | 0

@@ -30,12 +30,12 @@ use IEEE.STD_LOGIC_1164.ALL;
 --use UNISIM.VComponents.all;
 
 entity convertModule is
-    Port ( Frequency(3:0) : out  STD_LOGIC; -- wartosc przypisana kodowi klawisza
-           IfExtended : in  STD_LOGIC; -- sygnalizuje czy kod z klawiatury by³ poprzedzony kodem rozszerzonym
+    Port ( IfExtended : in  STD_LOGIC; -- sygnalizuje czy kod z klawiatury by³ poprzedzony kodem rozszerzonym
            ButtonFree : in  STD_LOGIC; -- sygnalizuje zwolnienie klawisza 
            Ready : in  STD_LOGIC; -- sygnalizuje zakoñczenie wysy³ania kodu
            Clock : in  STD_LOGIC; -- zegar
-           Code(7:0) : in  STD_LOGIC); -- oœmiobitowy kod klawisza
+           Code : in  STD_LOGIC_VECTOR (7 downto 0); -- oœmiobitowy kod klawisza
+			  Frequency : out  STD_LOGIC_VECTOR (3 downto 0)); -- wartosc przypisana kodowi klawisza
 end convertModule;
 
 architecture Behavioral of convertModule is
@@ -48,20 +48,20 @@ begin
       if rising_edge( Clock ) and Ready = '1' then
 	  
 		case (IfExtended & ButtonFree & Code) is 
-			when ( "00" & X"1C" ) => frequency <="0001"; -- C
-			when ( "00" & X"1D" ) => frequency <="0010"; -- C#
-			when ( "00" & X"1B" ) => frequency <="0011"; -- D
-			when ( "00" & X"24" ) => frequency <="0100"; -- D#
-			when ( "00" & X"23" ) => frequency <="0101"; -- E
-			when ( "00" & X"2B" ) => frequency <="0110"; -- F
-			when ( "00" & X"2C" ) => frequency <="0111"; -- F#
-			when ( "00" & X"34" ) => frequency <="1000"; -- G
-			when ( "00" & X"35" ) => frequency <="1001"; -- G#
-			when ( "00" & X"33" ) => frequency <="1010"; -- A
-			when ( "00" & X"3C" ) => frequency <="1011"; -- A# 
-			when ( "00" & X"3B" ) => frequency <="1100"; -- B 
-			when ( "00" & X"42" ) => frequency <="1101"; -- C
-			when others => frequency <="0000";
+			when ( "00" & X"1C" ) => Frequency <="0001"; -- C
+			when ( "00" & X"1D" ) => Frequency <="0010"; -- C#
+			when ( "00" & X"1B" ) => Frequency <="0011"; -- D
+			when ( "00" & X"24" ) => Frequency <="0100"; -- D#
+			when ( "00" & X"23" ) => Frequency <="0101"; -- E
+			when ( "00" & X"2B" ) => Frequency <="0110"; -- F
+			when ( "00" & X"2C" ) => Frequency <="0111"; -- F#
+			when ( "00" & X"34" ) => Frequency <="1000"; -- G
+			when ( "00" & X"35" ) => Frequency <="1001"; -- G#
+			when ( "00" & X"33" ) => Frequency <="1010"; -- A
+			when ( "00" & X"3C" ) => Frequency <="1011"; -- A# 
+			when ( "00" & X"3B" ) => Frequency <="1100"; -- B 
+			when ( "00" & X"42" ) => Frequency <="1101"; -- C
+			when others => Frequency <="0000";
 		end case; 
       
       end if;
