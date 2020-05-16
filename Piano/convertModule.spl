@@ -1,0 +1,9 @@
+[Inputs]
+IfExtended
+ButtonRelase
+Ready
+Clock
+=Code[7:0]=
+[Outputs]
+=Frequency[3:0]=
+[BiDir]

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "E:/Studia/6 semestr/FPGA-Piano/Piano/convertModule_test_isim_beh.exe" -prj "E:/Studia/6 semestr/FPGA-Piano/Piano/convertModule_test_beh.prj" "work.convertModule_test" 

@@ -1,0 +1,7 @@
+[Inputs]
+Clock
+=ReceivedFrequency[3:0]=
+[Outputs]
+BeginInfo
+=SoundSignal[11:0]=
+[BiDir]
